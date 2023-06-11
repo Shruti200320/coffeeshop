@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #0e121a;
+    scroll-behavior: smooth;
+}
+.bigtext{
+    font-size: 60px;
+    font-family:'DM Serif Display', serif;
+    font-weight: 400;
+    line-height: 59px;
+}
+.midtext{
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+}
+.t-white{
+        color: white;
+}
+.bold{
+    font-weight: bold;
+}
+button{
+    background-color: rgb(148, 59, 29);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 200px;
+    cursor: pointer;
+}
+i{
+    color:rgb(148, 59, 29);
+    margin: 10px;
+}
+
+header{
+    height:100vh;
+    background-color: #0e121a;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+.navbar{
+    display: flex;
+    height:78%;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    z-index: 999;
+}
+.navbar img{
+    height: 12vw;
+}
+#rightnav{
+    width: 30%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    height: 30%;
+}
+.resp{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#rightnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.location{
+    color: white;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.bg{
+    height: 100vh;
+    width: 100%;
+    background:rgba(255, 255, 255, 0.5) url(/images/terrasse-mit-Käffchen_web.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode:darken;
+    /* background-image: url(); */
+}
+.main{
+    display: flex;
+    max-width: 100%;
+}
+.bg-right{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(178, 92, 64, 0.75);
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-content{
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time div{
+    max-width: 45%;
+}
+
+/* abous us starts here */
+
+.aboutus{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.au-content{
+    width: 80%;
+    display: flex;
+    height: 60%;
+    justify-content: space-around;
+}
+.heading{
+    color: rgb(148, 59, 29);
+    font-weight: bold;
+}
+
+.aboutus .left{
+    width: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.a-cards{
+    width: 20%;
+    margin: 10px;
+}
+.aboutus img{
+    height: 70%;
+
+}
+
+/* our team starts here */
+
+.ourteam{
+    display: flex;
+    width: 100%;
+    background-color: #0e121a;
+    height: 95vh;
+}
+
+.ot-left{
+    background: url(/images/cafe3-wrapbg1.jpg);
+    background-size: cover;
+    width: 60%;
+    background-position: center center;
+    
+}
+.ot-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.ot-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70%;
+    height: 70%;
+}
+
+
+
+/* menu starts here */
+
+.menu{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 5% auto;
+    /* background-color: black; */
+}
+.items{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin: 5% auto;
+}
+.left{
+    width: 50%;
+    display: flex;
+    height: 30vw;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.right{
+    width:50%;
+    display: flex;
+    height: 30vw;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu-1{
+    background: url(/images/cafe3-offer-pic1.jpg);
+    background-size: cover;
+    height: 80%;
+    transition: all ease-in-out 0.3s;
+}
+.menu-1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.menu-2{
+    background: url(/images/cafe3-offer-pic2.jpg);
+    background-size: cover;
+    height: 80%;
+    transition: all ease-in-out 0.3s;
+}
+.menu-2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* footer */
+
+
+footer{
+    background-color: rgb(243, 240, 240);
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.cprt{
+    position: absolute;
+    bottom: 0px;
+    margin: 40px 0px 20px 0px;
+}
+
+.foot{
+    margin: 10% 0px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section{
+    width: 20%;
+    margin: 20px 0px;
+}
+
+.section div{
+    margin: 20px;
+}
+.burger{
+    display: none;
+}
+@media only screen and (max-width:1240px)
+{
+
+    .main
+    {
+        flex-direction: column;
+    }
+    header{
+        width: 100vw;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar{
+        flex-direction: column;
+        width: 90vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .navbar img{
+        height:45px;
+    }
+    .location{
+        display: none;
+    }
+    #rightnav{
+        flex-direction: column;
+       width: 100%;
+       display: none;
+    }
+    #rightnav a{
+        padding: 20px 0px;
+        background-color: #0e121a;
+
+    }
+    .burger{
+        display: block;
+    }
+    .midtext{
+        font-size: 25px;
+    }
+    .bigtext{
+        font-size:40px;
+    }
+    .bg{
+        height: 500px;
+    }
+    .resp{
+        justify-content: space-between;
+    }
+    #rightnav a{
+        display: block;
+    }
+
+}
+@media only screen and (max-width:750px)
+{
+    .bg{
+        height: 800px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .bg-right{
+        float: none;
+        height: 50%;
+        width: 70%;
+    }
+    .desc{
+        display: none;
+    }
+    .bigtext{
+        font-size: 60px;
+    }
+    .midtext{
+        font-size: 1.5em;
+    }
+    .bigtext{
+        font-size: 2em;
+    }
+    .ourteam{
+        flex-direction: column;
+    }
+    .ot-left{
+        height: 60%;
+        width: 100%;
+    }
+    .ot-right{
+        width: 100%;
+    }
+    .au-content{
+        flex-direction: column;
+        margin: 20px 0px;
+        max-width: 100%;
+    }
+    .a-cards{
+        width: 90vw;
+    }
+    .a-cards img{
+        width: 80vw;
+    }
+    .aboutus{
+        height: 100%;
+        width: 100%;
+        
+
+    }
+    .menu-1{
+        height: 250px;
+    }
+    .menu-2{
+        height: 250px;
+    }
+    .left , .right{
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .items{
+        flex-direction: column;
+    }
+    .foot{
+        flex-direction: column;
+        height: auto;
+    }
+    .section{
+        width: 60%;
+        margin: 10px 0px;
+    }
+    
+}
+
+@media only screen and (max-width:450px)
+{
+    *{
+        font-size: 15px;
+    }
+    .bg{
+        height: 600px;
+    }
+    
+}
